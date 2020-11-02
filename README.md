@@ -4,6 +4,7 @@ This is the Bootcamp that I organized for students to teach them Flask and Boots
 ## Setup
 For Windows : 
 - Download <b><a href="https://www.python.org/downloads/">Python</a></b> and follow the step to install latest version.
+<img src="files/img/python.png">
 - Open Command Prompt and <b>Verify Python installation</b> with command : <code>py --version</code>
 - Change working diectory to <b>Desktop</b>, Create a folder named <b>flask_app</b> and change your working directory to it, with command : <code>cd Desktop && mkdir && cd flask_app</code>
 - <b>Install Virtual Environment</b> named env with command : <code>py -m venv env</code>
