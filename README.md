@@ -11,5 +11,5 @@ For Windows :
 - <b>Install Virtual Environment</b> named env with command : <code>py -m venv env</code>
 - <b>Activate Virtual Environment</b> with command : <code>env\Scripts\activate</code>
 - <b>Install Flask</b> with command : <code>pip install flask</code>
-- <b>Verify Flask installation</b> with command : <code>py -c "import flask; print(flask.__version__)"</code>
+- <b>Verify Flask installation</b> with command : <code>py -c "import flask; print(flask.<span>&#95;&#95;</span>version<span>&#95;&#95;</span>)"</code>
 - <b>Deactivate Virtual Environment</b> with command : <code>deactivate</code>
