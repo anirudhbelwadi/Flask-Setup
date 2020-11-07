@@ -7,7 +7,7 @@ For Windows :
 <img src="files/img/python.png">
 
 - Open Command Prompt and <b>Verify Python installation</b> with command : <code>py --version</code>
-- Change working diectory to <b>Desktop</b>, Create a folder named <b>flask_app</b> and change your working directory to it, with command : <code>cd Desktop && mkdir && cd flask_app</code>
+- Change working diectory to <b>Desktop</b>, Create a folder named <b>flask_app</b> and change your working directory to it, with command : <code>cd Desktop && mkdir flask_app && cd flask_app</code>
 - <b>Install Virtual Environment</b> named env with command : <code>py -m venv env</code>
 - <b>Activate Virtual Environment</b> with command : <code>env\Scripts\activate</code>
 - <b>Install Flask</b> with command : <code>pip install flask</code>
