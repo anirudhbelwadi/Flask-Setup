@@ -18,20 +18,20 @@ For Windows :
 ## GitHub Repository Setup
 - <b>Login/SignUp</b> into <a href="https://github.com/"><b>GitHub</b></a>.
 - Go to your <b>repositories tab</b> : <code>https://github.com/<REPLACE_WITH_YOUR_USERNAME>?tab=repositories</code>
-- Click on <b>New</b> to create a <b>New repository</b>.
-<img src="files/img/gitreponew.jpg">
+- Click on <b>New</b> to create a <b>New repository</b>.<br><br>
+<img src="files/img/gitreponew.jpg"><br><br>
 
 - In the next page, give a unique(within your account) repository name, keep the repository public, leave all other options at default and click on <b>Create Repository</b>. Do not close the next window, as we will be needing it in future.
 - <b>Download Git Bash</b> from <a href="https://gitforwindows.org/">here</a>.
 - Leave all options at defalut and follow instructions for installation, at the end <b>Deselect <i>View Release Notes</i></b>.
-- Go back to the open <b>repository page<b> and click on the <b>clipboard button</b>.
-<img src="files/img/cloning.png">
+- Go back to the open <b>repository page<b> and click on the <b>clipboard button</b>.<br><br>
+<img src="files/img/cloning.png"><br><br>
 
 - Open <b>Start</b>, search for <b>Git Bash</b> and open it.
 - Change working diectory to <b>Desktop</b> with command : <code>cd Desktop</code>
 - <b>Clone</b> your newly created repository with command : <code>git clone <URL_COPIED_FROM_REPOSITORY_PAGE></code>
-<br>For example <code>git clone https://github.com/anirudhbelwadi/My-new-repository.git</code> <cite style="color: green;">//Do Not Copy this.</cite>
-<img src="files/img/gitclone.png">
+<br>For example <code>git clone https://github.com/anirudhbelwadi/My-new-repository.git</code> <cite style="color: green;">//Do Not Copy this.</cite><br><br>
+<img src="files/img/gitclone.png"><br><br>
 
 - <b>Create/copy your files</b> in(to) the new folder created on Desktop named by your repository name.
 - Return to Git Bash and change working diectory to <b><REPOSITORY_NAME></b> with command : <code>cd <REPOSITORY_NAME></code>
@@ -40,8 +40,8 @@ For Windows :
 - Execute following commands to update the changes(to the GitHub repository) that you have made in your local machine(i.e. Copying/Modifying/Creating files) : <br>
 <code>git status</code>&nbsp;&nbsp;<cite style="color: green;">//Shows status of file changes betwewen local machine and GitHub Remote Repository.</cite><br>
 <code>git add .</code>&nbsp;&nbsp;<cite style="color: green;">//Includes updates to all files in the next commit. You can also include single file with command : <code>git add <FILE_NAME></code></cite><br>
-<code>git commit -m "Type_your_commit_message"</code> <cite style="color: green;">//For example : git commit -m "First commit". This command saves changes in local repository</cite><br>
-<code>git push</code>&nbsp;&nbsp;<cite style="color: green;">//Uploads local repository content to a remote repository.</cite>
-<img src="files/img/gitpush.png">
+<code>git commit -m "Type_your_commit_message"</code> <cite style="color: green;">//For example : git commit -m "First commit". This command saves changes in local repository.</cite><br>
+<code>git push</code>&nbsp;&nbsp;<cite style="color: green;">//Uploads local repository content to a remote repository.</cite><br><br>
+<img src="files/img/gitpush.png"><br><br>
 
 - Go back to the open <b>repository page</b> and <b>refresh</b> the page to see your newly updated files!
