@@ -1,5 +1,5 @@
-# Flask-and-Bootstrap4-Bootcamp
-This is the Bootcamp that I organized for students to teach them Flask and Bootstrap4
+# Flask Project Setup
+Use the following steps to setp a Flask Project
 
 ## Setup
 For Windows : 
